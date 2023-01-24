@@ -1,9 +1,15 @@
 import './App.css';
-import Kitchen from './Kitchen';
+import FloorPlan from './FloorPlan';
 
 function App() {
-  <div>This is a FLOORPLAN COMPONENT!
+  return (
+  <>
+  <div>
+    Hello!
+    <FloorPlan name='Floor Plan'/>
   </div>
+  </>
+  );
 }
 
 export default App;

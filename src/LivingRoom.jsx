@@ -1,4 +1,4 @@
-const Sink = (props) => {
+const LivingRoom = (props) => {
   return (
     <div>
       {props.name}
@@ -6,4 +6,4 @@ const Sink = (props) => {
   )
 }
 
-export default Sink
+export default LivingRoom

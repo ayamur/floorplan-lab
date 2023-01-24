@@ -37,6 +37,11 @@
   }
 }
 
+Body {
+  background-color: black;
+  color: red;
+}
+
 div {
   border: 1px solid rgb(255, 0, 0);
   margin: 5px;

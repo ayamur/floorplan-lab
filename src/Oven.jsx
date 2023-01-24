@@ -1,11 +1,9 @@
-
-
 const Oven = (props) => {
   return (
     <div>
-      This an OVEN COMPONENT!
+      {props.name}
     </div>
-  )
+  );
 }
 
 export default Oven

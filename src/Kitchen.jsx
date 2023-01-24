@@ -3,9 +3,13 @@ import Oven from "./Oven"
 
 const Kitchen = (props) => {
   return (
-    <div>
-      This is a KITCHEN COMPONENT!
-    </div>
+    <>
+      <div>
+        <Oven name={"Oven"}/>
+        <Sink name={"Sink"}/>
+        {/* Setting the properties of Oven and Sink */}
+      </div>
+    </>
   )
 }
 
