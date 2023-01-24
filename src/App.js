@@ -2,12 +2,8 @@ import './App.css';
 import Kitchen from './Kitchen';
 
 function App() {
-  return (
-    <>
-    <h2>This is a FLOORPLAN COMPONENT!
-    </h2>
-    </>
-  );
+  <div>This is a FLOORPLAN COMPONENT!
+  </div>
 }
 
 export default App;

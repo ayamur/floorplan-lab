@@ -1,9 +1,11 @@
 
 
 const Sink = (props) => {
-  <>
-  <h3>This a SINK COMPONENT! </h3>
-  </>
+  return (
+    <div>
+      This is a SINK COMPONENT!
+    </div>
+  )
 }
 
 export default Sink

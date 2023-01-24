@@ -3,9 +3,9 @@ import Oven from "./Oven"
 
 const Kitchen = (props) => {
   return (
-    <>
-    <h2>This is a KITCHEN COMPONENT!</h2>
-    </>
+    <div>
+      This is a KITCHEN COMPONENT!
+    </div>
   )
 }
 
